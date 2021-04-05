@@ -1,0 +1,17 @@
+﻿@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Relatório de Movimentação</h1>
+<div class=”container”>
+    @Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+      {
+        Actions =
+        {
+         GetReport = "GetReport",
+         ViewerEvent = "ViewerEvent"
+        }
+    })
+</div>
