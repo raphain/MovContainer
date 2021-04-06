@@ -33,12 +33,11 @@
     ".NETCoreApp,Version=v5.0": {
       "MovContainer/1.0.0": {
         "dependencies": {
-          "FastReport.OpenSource": "2021.2.0",
-          "FastReport.OpenSource.Web": "2021.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Stimulsoft.Reports.Web.NetCore": "2021.2.2",
+          "jQuery.InputMask": "5.0.5",
           "Microsoft.AspNetCore.Antiforgery.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -328,62 +327,6 @@
           "MovContainer.dll": {}
         }
       },
-      "FastReport.Compat/2021.1.1": {
-        "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "3.8.0",
-          "Microsoft.CodeAnalysis.VisualBasic": "3.8.0",
-          "System.Drawing.Common": "5.0.0",
-          "System.Windows.Extensions": "4.7.0"
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/FastReport.Compat.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "2021.1.1.0",
-            "fileVersion": "2021.1.1.0"
-          },
-          "runtimes/win/lib/netcoreapp3.0/FastReport.Compat.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "2021.1.1.0",
-            "fileVersion": "2021.1.1.0"
-          }
-        }
-      },
-      "FastReport.OpenSource/2021.2.0": {
-        "dependencies": {
-          "FastReport.Compat": "2021.1.1",
-          "System.Drawing.Common": "5.0.0",
-          "System.Security.Cryptography.Pkcs": "4.5.2",
-          "System.Security.Permissions": "4.7.0",
-          "System.Text.Encoding.CodePages": "4.7.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/FastReport.dll": {
-            "assemblyVersion": "2021.2.0.0",
-            "fileVersion": "2021.2.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/FastReport.dll": {}
-        }
-      },
-      "FastReport.OpenSource.Web/2021.2.0": {
-        "dependencies": {
-          "FastReport.OpenSource": "2021.2.0",
-          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FastReport.OpenSource.Web.dll": {
-            "assemblyVersion": "2021.2.0.0",
-            "fileVersion": "2021.2.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/FastReport.OpenSource.Web.dll": {}
-        }
-      },
       "Fizzler/1.2.0": {
         "runtime": {
           "lib/netstandard2.0/Fizzler.dll": {
@@ -403,6 +346,7 @@
           }
         }
       },
+      "jQuery.InputMask/5.0.5": {},
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "2.2.0",
@@ -2744,12 +2688,9 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         }
       },
-      "System.Security.Cryptography.Pkcs/4.5.2": {
+      "System.Security.Cryptography.Pkcs/4.5.0": {
         "dependencies": {
           "System.Security.Cryptography.Cng": "4.5.0"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {}
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -2810,7 +2751,7 @@
       },
       "System.Security.Cryptography.Xml/4.5.0": {
         "dependencies": {
-          "System.Security.Cryptography.Pkcs": "4.5.2",
+          "System.Security.Cryptography.Pkcs": "4.5.0",
           "System.Security.Permissions": "4.7.0"
         }
       },
@@ -4650,27 +4591,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FastReport.Compat/2021.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pc6iJtFeFVqReQ3wup105g+YSr9FNglrBHAPrGEx1t9YGxEJClJdWxI6hZ+8/Syu64AFaiyPvVtuyYY4SzrJeQ==",
-      "path": "fastreport.compat/2021.1.1",
-      "hashPath": "fastreport.compat.2021.1.1.nupkg.sha512"
-    },
-    "FastReport.OpenSource/2021.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-CgDo/ail7PqQps13CReSFWmMSKiAg7YCrXB+1XsSsfjO6I7r1tw8FEhuw607p29LWDXTDW1kPadBjkObIbUGgA==",
-      "path": "fastreport.opensource/2021.2.0",
-      "hashPath": "fastreport.opensource.2021.2.0.nupkg.sha512"
-    },
-    "FastReport.OpenSource.Web/2021.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0MBmoFlUHpnasPLBlXFKyhbYF2OpLkDq0GHl0H0fEzFZbtd01AFRGWr25oZ+FkVmY0JPas9xx6FndNjzIjhq8A==",
-      "path": "fastreport.opensource.web/2021.2.0",
-      "hashPath": "fastreport.opensource.web.2021.2.0.nupkg.sha512"
-    },
     "Fizzler/1.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4684,6 +4604,13 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "jQuery.InputMask/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EdfCcNHEulHTV9wGoMgaW/Ch//pHVlSbZeQxTkkC91wNICVw7K4ePp3bcI4ZBU8d3sCxIx5aebNk4c3gTENJmw==",
+      "path": "jquery.inputmask/5.0.5",
+      "hashPath": "jquery.inputmask.5.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",
@@ -6036,12 +5963,12 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.Pkcs/4.5.2": {
+    "System.Security.Cryptography.Pkcs/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lIo52x0AAsZs8r1L58lPXaqN6PP51Z/XJts0kZtbZRNYcMguupxqRGjvc/GoqSKTbYa+aBwbkT4xoqQ7EsfN0A==",
-      "path": "system.security.cryptography.pkcs/4.5.2",
-      "hashPath": "system.security.cryptography.pkcs.4.5.2.nupkg.sha512"
+      "sha512": "sha512-TGQX51gxpY3K3I6LJlE2LAftVlIMqJf0cBGhz68Y89jjk3LJCB6SrwiD+YN1fkqemBvWGs+GjyMJukl6d6goyQ==",
+      "path": "system.security.cryptography.pkcs/4.5.0",
+      "hashPath": "system.security.cryptography.pkcs.4.5.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",

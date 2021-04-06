@@ -1,12 +1,12 @@
 ﻿@model MovContainer.Models.Movimentation
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Edit</h1>
+<h1>Editar</h1>
 
-<h4>Movimentation</h4>
+<h4>Movimentação</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,34 +14,34 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="MovTypeId" class="control-label"></label>
+                <label asp-for="MovTypeId" class="control-label">Tipo de Movimentação</label>
                 <select asp-for="MovTypeId" class="form-control" asp-items="ViewBag.MovTypeId"></select>
                 <span asp-validation-for="MovTypeId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ContainerId" class="control-label"></label>
+                <label asp-for="ContainerId" class="control-label">Container</label>
                 <select asp-for="ContainerId" class="form-control" asp-items="ViewBag.ContainerId"></select>
                 <span asp-validation-for="ContainerId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Dt_Init" class="control-label"></label>
+                <label asp-for="Dt_Init" class="control-label">Data Início</label>
                 <input asp-for="Dt_Init" class="form-control" />
                 <span asp-validation-for="Dt_Init" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Dt_Fin" class="control-label"></label>
+                <label asp-for="Dt_Fin" class="control-label">Data Fim</label>
                 <input asp-for="Dt_Fin" class="form-control" />
                 <span asp-validation-for="Dt_Fin" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Retornar</a>
 </div>
 
 @section Scripts {

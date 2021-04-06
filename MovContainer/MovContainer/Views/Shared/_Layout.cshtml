@@ -21,30 +21,31 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        @*@<li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="ContainerCategories" asp-action="Index">Categoria de Containers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="ContainerStatus" asp-action="Index">Status de Containers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="ContainerTypes" asp-action="Index">Tipos de Containers</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="MovTypes" asp-action="Index">Tipos de Movimentação</a>
+        </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ContainerCategories" asp-action="Index">Categoria de Containers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ContainerStatus" asp-action="Index">Status de Containers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ContainerTypes" asp-action="Index">Tipos de Containers</a>
-                        </li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Editor" asp-action="Index">Editor</a>
+                        </li>*@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Containers" asp-action="Index">Containers</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Movimentations" asp-action="Index">Movimentações</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="MovTypes" asp-action="Index">Tipos de Movimentação</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Editor" asp-action="Index">Editor</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Viewer"
-                               asp-action="Index">Visualizar relatório</a>
+                               asp-action="Index">Visualizar Relatório</a>
                         </li>
                     </ul>
                 </div>
@@ -59,12 +60,15 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - MovContainer - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - MovContainer 
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/jquery.mask.js"></script>
+    <script src="~/js/CustomJquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

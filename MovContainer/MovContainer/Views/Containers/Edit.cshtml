@@ -1,10 +1,10 @@
 ﻿@model MovContainer.Models.Container
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Edit</h1>
+<h1>Editar</h1>
 
 <h4>Container</h4>
 <hr />
@@ -14,39 +14,39 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="Client" class="control-label"></label>
+                <label asp-for="Client" class="control-label">Cliente</label>
                 <input asp-for="Client" class="form-control" />
                 <span asp-validation-for="Client" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Number" class="control-label"></label>
-                <input asp-for="Number" class="form-control" />
+                <label asp-for="Number" class="control-label">Número</label>
+                <input asp-for="Number" id="cnumber" class="form-control" />
                 <span asp-validation-for="Number" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ContainerTypeId" class="control-label"></label>
+                <label asp-for="ContainerTypeId" class="control-label">Tipo</label>
                 <select asp-for="ContainerTypeId" class="form-control" asp-items="ViewBag.ContainerTypeId"></select>
                 <span asp-validation-for="ContainerTypeId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ContainerStatusId" class="control-label"></label>
+                <label asp-for="ContainerStatusId" class="control-label">Status</label>
                 <select asp-for="ContainerStatusId" class="form-control" asp-items="ViewBag.ContainerStatusId"></select>
                 <span asp-validation-for="ContainerStatusId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ContainerCategoryId" class="control-label"></label>
+                <label asp-for="ContainerCategoryId" class="control-label">Categoria</label>
                 <select asp-for="ContainerCategoryId" class="form-control" asp-items="ViewBag.ContainerCategoryId"></select>
                 <span asp-validation-for="ContainerCategoryId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Retornar</a>
 </div>
 
 @section Scripts {

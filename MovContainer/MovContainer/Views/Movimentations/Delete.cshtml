@@ -1,36 +1,36 @@
 ﻿@model MovContainer.Models.Movimentation
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Excluir";
 }
 
-<h1>Delete</h1>
+<h1>Excluir</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Confirma a exclusão?</h3>
 <div>
-    <h4>Movimentation</h4>
+    <h4>Movimentação</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MovType)
+            @Html.DisplayName("Tipo de Movimentação")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.MovType.Id)
         </dd class>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Container)
+            @Html.DisplayName("Container")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Container.Id)
         </dd class>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dt_Init)
+            @Html.DisplayName("Data Início")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dt_Init)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dt_Fin)
+            @Html.DisplayName("Data Fim")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dt_Fin)
@@ -39,7 +39,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Excluir" class="btn btn-danger" /> |
+        <a asp-action="Index">Retornar</a>
     </form>
 </div>

@@ -1,31 +1,31 @@
 ﻿@model IEnumerable<MovContainer.Models.Container>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Containers";
 }
 
 <h1>Container</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Novo</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Client)
+                @Html.DisplayName("Cliente")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Number)
+                @Html.DisplayName("Número")
             </th>
             <th>
                 @Html.DisplayName("Tipo")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Status)
+                @Html.DisplayName("Status")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Category)
+                @Html.DisplayName("Categoria")
             </th>
             <th></th>
         </tr>
@@ -49,9 +49,9 @@
                 @Html.DisplayFor(modelItem => item.Category.Description)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
             </td>
         </tr>
 }

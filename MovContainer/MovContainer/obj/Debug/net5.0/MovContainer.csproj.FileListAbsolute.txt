@@ -24,7 +24,6 @@ C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\MovContaine
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\MovContainer.TagHelpers.output.cache
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\MovContainer.RazorCoreGenerate.cache
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -239,8 +238,4 @@ C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\runtimes\wi
 C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\MovContainer.MvcApplicationPartsAssemblyInfo.cs
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Editor\Index.cshtml.g.cs
-C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\FastReport.dll
-C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\FastReport.OpenSource.Web.dll
-C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\FastReport.Compat.dll
-C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\FastReport.Compat.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Viewer\Index.cshtml.g.cs

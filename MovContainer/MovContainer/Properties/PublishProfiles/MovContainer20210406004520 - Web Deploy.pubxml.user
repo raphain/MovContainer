@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzXXxP51LPEGvWWEPiqJZcgAAAAACAAAAAAAQZgAAAAEAACAAAABzNASwkL1tTPqVETng1zh9m6cjq1LmHNpMUm2Kin0TvgAAAAAOgAAAAAIAACAAAADRqDi/pVyr2Po+pA6uPQnIrR5OKVak1oFtVEVQTSkKvYAAAAAexgOKl7rLtAYRmfGJFpdvafnSUFLJnEzfNMGS+/WTUrPcemS5qzAM2uKfX5uTwJcL6QNTWA84EXAKA7/cZFw9eQArE/JeKF0qQcBHimB9M56ZntamzNkp+OO/41HFBNv+LD9s4AmUb0SuB+731dd25lhHY6qOwV7cvlWUvg3XDEAAAABG0okSCUEs/8QndBP0bG2ZoIzQXi/21WCJE0Wo2ab5FjIqAC7zl/Tq0lq6jvsdyr2CHEdA2YCr1ksjpWaW67x+</EncryptedPassword>
+    <History>True|2021-04-06T04:35:26.1465115Z;True|2021-04-06T01:30:23.0019304-03:00;True|2021-04-06T01:11:29.6183048-03:00;True|2021-04-06T01:09:06.2303693-03:00;False|2021-04-06T01:05:22.2208783-03:00;False|2021-04-06T00:58:10.0361366-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="movcontainerdb">
+      <Value>Data Source=tcp:movcontainerdbserver.database.windows.net,1433%3bInitial Catalog=MovContainer_db%3bUser Id=raphain%40movcontainerdbserver%3bPassword=a1b2c3d4!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MovContainer.Models.Context">
+      <Value>Data Source=tcp:movcontainerdbserver.database.windows.net,1433%3bInitial Catalog=MovContainer_db%3bUser Id=raphain%40movcontainerdbserver%3bPassword=a1b2c3d4!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

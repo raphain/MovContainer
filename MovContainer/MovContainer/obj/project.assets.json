@@ -2,64 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "FastReport.Compat/2021.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "3.3.0",
-          "Microsoft.CodeAnalysis.VisualBasic": "3.3.0",
-          "System.Drawing.Common": "4.6.0",
-          "System.Windows.Extensions": "4.6.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/_._": {}
-        },
-        "build": {
-          "build/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/FastReport.Compat.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/FastReport.Compat.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "FastReport.OpenSource/2021.2.0": {
-        "type": "package",
-        "dependencies": {
-          "FastReport.Compat": "2021.1.1",
-          "System.Drawing.Common": "4.6.1",
-          "System.Security.Cryptography.Pkcs": "4.5.2",
-          "System.Security.Permissions": "4.4.0",
-          "System.Text.Encoding.CodePages": "4.5.1"
-        },
-        "compile": {
-          "lib/netstandard2.1/FastReport.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/FastReport.dll": {}
-        }
-      },
-      "FastReport.OpenSource.Web/2021.2.0": {
-        "type": "package",
-        "dependencies": {
-          "FastReport.OpenSource": "2021.2.0",
-          "Microsoft.AspNetCore.Html.Abstractions": "2.0.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/FastReport.OpenSource.Web.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/FastReport.OpenSource.Web.dll": {}
-        }
-      },
       "Fizzler/1.2.0": {
         "type": "package",
         "compile": {
@@ -77,6 +19,9 @@
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
         }
+      },
+      "jQuery.InputMask/5.0.5": {
+        "type": "package"
       },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
@@ -3252,13 +3197,13 @@
           }
         }
       },
-      "System.Security.Cryptography.Pkcs/4.5.2": {
+      "System.Security.Cryptography.Pkcs/4.5.0": {
         "type": "package",
         "dependencies": {
           "System.Security.Cryptography.Cng": "4.5.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {}
+          "ref/netcoreapp2.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {}
@@ -3651,58 +3596,6 @@
     }
   },
   "libraries": {
-    "FastReport.Compat/2021.1.1": {
-      "sha512": "pc6iJtFeFVqReQ3wup105g+YSr9FNglrBHAPrGEx1t9YGxEJClJdWxI6hZ+8/Syu64AFaiyPvVtuyYY4SzrJeQ==",
-      "type": "package",
-      "path": "fastreport.compat/2021.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "build/FastReport.Compat.targets",
-        "build/lib/netcoreapp3.0-Win/FastReport.Compat.dll",
-        "build/lib/netcoreapp3.0/FastReport.Compat.dll",
-        "fastreport.compat.2021.1.1.nupkg.sha512",
-        "fastreport.compat.nuspec",
-        "frlogo-big.png",
-        "lib/net40/FastReport.Compat.dll",
-        "lib/net5.0-windows7.0/FastReport.Compat.dll",
-        "lib/net5.0-windows7.0/ref/FastReport.Compat.dll",
-        "lib/netcoreapp3.0/_._",
-        "lib/netstandard2.0/FastReport.Compat.dll",
-        "lib/netstandard2.1/FastReport.Compat.dll",
-        "runtimes/unix/lib/netcoreapp3.0/FastReport.Compat.dll",
-        "runtimes/win/lib/netcoreapp3.0/FastReport.Compat.dll"
-      ]
-    },
-    "FastReport.OpenSource/2021.2.0": {
-      "sha512": "CgDo/ail7PqQps13CReSFWmMSKiAg7YCrXB+1XsSsfjO6I7r1tw8FEhuw607p29LWDXTDW1kPadBjkObIbUGgA==",
-      "type": "package",
-      "path": "fastreport.opensource/2021.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fastreport.opensource.2021.2.0.nupkg.sha512",
-        "fastreport.opensource.nuspec",
-        "frlogo-big.png",
-        "lib/net40/FastReport.dll",
-        "lib/netstandard2.0/FastReport.dll",
-        "lib/netstandard2.1/FastReport.dll"
-      ]
-    },
-    "FastReport.OpenSource.Web/2021.2.0": {
-      "sha512": "0MBmoFlUHpnasPLBlXFKyhbYF2OpLkDq0GHl0H0fEzFZbtd01AFRGWr25oZ+FkVmY0JPas9xx6FndNjzIjhq8A==",
-      "type": "package",
-      "path": "fastreport.opensource.web/2021.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fastreport.opensource.web.2021.2.0.nupkg.sha512",
-        "fastreport.opensource.web.nuspec",
-        "frlogo-big.png",
-        "lib/netstandard2.0/FastReport.OpenSource.Web.dll"
-      ]
-    },
     "Fizzler/1.2.0": {
       "sha512": "CPxuWF8EPvM0rwAtMTR5G+7EuLoGNXsEfqyx06upN9JyVALZ73KgbGn3SLFwGosifiUAXrvNHtXlUwGGytdECg==",
       "type": "package",
@@ -3732,6 +3625,23 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "jQuery.InputMask/5.0.5": {
+      "sha512": "EdfCcNHEulHTV9wGoMgaW/Ch//pHVlSbZeQxTkkC91wNICVw7K4ePp3bcI4ZBU8d3sCxIx5aebNk4c3gTENJmw==",
+      "type": "package",
+      "path": "jquery.inputmask/5.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.txt",
+        "content/Scripts/inputmask/bindings/inputmask.binding.js",
+        "content/Scripts/inputmask/inputmask.js",
+        "content/Scripts/inputmask/inputmask.min.js",
+        "content/Scripts/inputmask/jquery.inputmask.js",
+        "content/Scripts/inputmask/jquery.inputmask.min.js",
+        "jquery.inputmask.5.0.5.nupkg.sha512",
+        "jquery.inputmask.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
@@ -9848,10 +9758,10 @@
         "system.security.cryptography.openssl.nuspec"
       ]
     },
-    "System.Security.Cryptography.Pkcs/4.5.2": {
-      "sha512": "lIo52x0AAsZs8r1L58lPXaqN6PP51Z/XJts0kZtbZRNYcMguupxqRGjvc/GoqSKTbYa+aBwbkT4xoqQ7EsfN0A==",
+    "System.Security.Cryptography.Pkcs/4.5.0": {
+      "sha512": "TGQX51gxpY3K3I6LJlE2LAftVlIMqJf0cBGhz68Y89jjk3LJCB6SrwiD+YN1fkqemBvWGs+GjyMJukl6d6goyQ==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/4.5.2",
+      "path": "system.security.cryptography.pkcs/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9875,7 +9785,7 @@
         "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
-        "system.security.cryptography.pkcs.4.5.2.nupkg.sha512",
+        "system.security.cryptography.pkcs.4.5.0.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -10972,12 +10882,11 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FastReport.OpenSource >= 2021.2.0",
-      "FastReport.OpenSource.Web >= 2021.2.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "Stimulsoft.Reports.Web.NetCore >= 2021.2.2"
+      "Stimulsoft.Reports.Web.NetCore >= 2021.2.2",
+      "jQuery.InputMask >= 5.0.5"
     ]
   },
   "packageFolders": {
@@ -11029,14 +10938,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "FastReport.OpenSource": {
-            "target": "Package",
-            "version": "[2021.2.0, )"
-          },
-          "FastReport.OpenSource.Web": {
-            "target": "Package",
-            "version": "[2021.2.0, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.4, )"
@@ -11054,6 +10955,10 @@
           "Stimulsoft.Reports.Web.NetCore": {
             "target": "Package",
             "version": "[2021.2.2, )"
+          },
+          "jQuery.InputMask": {
+            "target": "Package",
+            "version": "[5.0.5, )"
           }
         },
         "imports": [
