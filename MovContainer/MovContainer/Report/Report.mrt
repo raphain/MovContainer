@@ -87,9 +87,10 @@
               <Name>HeaderText3</Name>
               <Page isRef="4" />
               <Parent isRef="7" />
-              <Text>Number</Text>
+              <Text>Container</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderText3>
             <HeaderText4 Ref="9" type="Text" isKey="true">
@@ -104,9 +105,10 @@
               <Name>HeaderText4</Name>
               <Page isRef="4" />
               <Parent isRef="7" />
-              <Text>Dt_Init</Text>
+              <Text>Data Início</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderText4>
             <HeaderText5 Ref="10" type="Text" isKey="true">
@@ -121,9 +123,10 @@
               <Name>HeaderText5</Name>
               <Page isRef="4" />
               <Parent isRef="7" />
-              <Text>Dt_Fin</Text>
+              <Text>Data Fim</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderText5>
             <HeaderText6 Ref="11" type="Text" isKey="true">
@@ -138,9 +141,10 @@
               <Name>HeaderText6</Name>
               <Page isRef="4" />
               <Parent isRef="7" />
-              <Text>Descrição</Text>
+              <Text>Categoria</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </HeaderText6>
           </Components>
@@ -155,6 +159,7 @@
           <ClientRectangle>0,4,19.01,0.8</ClientRectangle>
           <Components isList="true" count="1">
             <GroupHeaderText0 Ref="13" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,19.01,0.8</ClientRectangle>
@@ -165,9 +170,11 @@
               <Name>GroupHeaderText0</Name>
               <Page isRef="4" />
               <Parent isRef="12" />
-              <Text>{VW_movreport.Client}</Text>
+              <Text>&lt;u&gt;{VW_movreport.Client}&lt;/u&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </GroupHeaderText0>
           </Components>
@@ -181,8 +188,9 @@
         <GroupHeader1 Ref="14" type="GroupHeaderBand" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0,5.6,19.01,1</ClientRectangle>
-          <Components isList="true" count="1">
+          <Components isList="true" count="5">
             <GroupHeaderText1 Ref="15" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,19.01,0.8</ClientRectangle>
@@ -193,11 +201,85 @@
               <Name>GroupHeaderText1</Name>
               <Page isRef="4" />
               <Parent isRef="14" />
-              <Text>{VW_movreport.Description}</Text>
+              <Text>&lt;font size="10"&gt;{VW_movreport.Description}&lt;/font&gt;</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </GroupHeaderText1>
+            <DataText3 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.8,0.2,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataText3</Name>
+              <Page isRef="4" />
+              <Parent isRef="14" />
+              <Text>{VW_movreport.Number}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText3>
+            <DataText4 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8.8,0.2,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataText4</Name>
+              <Page isRef="4" />
+              <Parent isRef="14" />
+              <Text>{VW_movreport.Dt_Init}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText4>
+            <DataText5 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.8,0.2,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataText5</Name>
+              <Page isRef="4" />
+              <Parent isRef="14" />
+              <Text>{VW_movreport.Dt_Fin}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText5>
+            <DataText6 Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15,0.2,4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataText6</Name>
+              <Page isRef="4" />
+              <Parent isRef="14" />
+              <Text>{VW_movreport.Descrição}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText6>
           </Components>
           <Condition>{VW_movreport.Description}</Condition>
           <Conditions isList="true" count="0" />
@@ -206,84 +288,11 @@
           <Page isRef="4" />
           <Parent isRef="4" />
         </GroupHeader1>
-        <Data Ref="16" type="DataBand" isKey="true">
+        <Data Ref="20" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,7.4,19.01,0.6</ClientRectangle>
-          <Components isList="true" count="4">
-            <DataText3 Ref="17" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>6,0,3,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>Arial,8</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Margins>0,0,0,0</Margins>
-              <Name>DataText3</Name>
-              <Page isRef="4" />
-              <Parent isRef="16" />
-              <Text>{VW_movreport.Number}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
-              <VertAlignment>Center</VertAlignment>
-            </DataText3>
-            <DataText4 Ref="18" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>9,0,3,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>Arial,8</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Margins>0,0,0,0</Margins>
-              <Name>DataText4</Name>
-              <Page isRef="4" />
-              <Parent isRef="16" />
-              <Text>{VW_movreport.Dt_Init}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
-              <VertAlignment>Center</VertAlignment>
-            </DataText4>
-            <DataText5 Ref="19" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>12,0,3,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>Arial,8</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Margins>0,0,0,0</Margins>
-              <Name>DataText5</Name>
-              <Page isRef="4" />
-              <Parent isRef="16" />
-              <Text>{VW_movreport.Dt_Fin}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
-              <VertAlignment>Center</VertAlignment>
-            </DataText5>
-            <DataText6 Ref="20" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>15,0,4,0.6</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>Arial,8</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Margins>0,0,0,0</Margins>
-              <Name>DataText6</Name>
-              <Page isRef="4" />
-              <Parent isRef="16" />
-              <Text>{VW_movreport.Descrição}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
-              <VertAlignment>Center</VertAlignment>
-            </DataText6>
-          </Components>
+          <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <DataSourceName>VW_movreport</DataSourceName>
           <Expressions isList="true" count="0" />
@@ -435,7 +444,7 @@
   <ReportChanged>4/2/2021 9:49:44 PM</ReportChanged>
   <ReportCreated>4/2/2021 9:49:44 PM</ReportCreated>
   <ReportFile>Report.mrt</ReportFile>
-  <ReportGuid>c888bc81e2b745b6a16e6b8fc4c27abd</ReportGuid>
+  <ReportGuid>ca7b7becc1214224a44adab74aaaec90</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2021.2.2.0</ReportVersion>

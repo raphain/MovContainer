@@ -43,8 +43,13 @@ C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Ou
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\MovContainer.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\MovContainer.runtimeconfig.json
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\MovContainer.pdb
+C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Azure.Core.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Azure.Identity.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Azure.Security.KeyVault.Secrets.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Fizzler.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Humanizer.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
@@ -63,6 +68,7 @@ C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Ou
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.Identity.Client.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll

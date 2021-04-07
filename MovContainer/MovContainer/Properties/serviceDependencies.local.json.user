@@ -1,13 +1,20 @@
 {
   "dependencies": {
-    "secrets1": {
-      "restored": true,
-      "restoreTime": "2021-04-06T04:28:49.8119023Z"
-    },
     "mssql1": {
       "restored": true,
-      "restoreTime": "2021-04-06T04:28:50.1654726Z"
+      "restoreTime": "2021-04-06T22:38:37.7632104Z"
     }
   },
-  "parameters": {}
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "bb341119-4c77-4775-945e-07c2084db389"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "MovContainer"
+    }
+  }
 }

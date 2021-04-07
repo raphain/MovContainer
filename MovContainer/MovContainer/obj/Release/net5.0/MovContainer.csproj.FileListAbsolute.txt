@@ -239,3 +239,9 @@ C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\MovContai
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\ref\MovContainer.dll
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\MovContainer.pdb
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Release\net5.0\MovContainer.genruntimeconfig.cache
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Release\net5.0\Azure.Core.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Release\net5.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Release\net5.0\Azure.Identity.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Release\net5.0\Azure.Security.KeyVault.Secrets.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Release\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Release\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

@@ -239,3 +239,9 @@ C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\runtimes\wi
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\MovContainer.MvcApplicationPartsAssemblyInfo.cs
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Editor\Index.cshtml.g.cs
 C:\workspace\ContainerMov\MovContainer\MovContainer\obj\Debug\net5.0\Razor\Views\Viewer\Index.cshtml.g.cs
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\Azure.Core.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\Azure.Identity.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
+C:\workspace\ContainerMov\MovContainer\MovContainer\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
